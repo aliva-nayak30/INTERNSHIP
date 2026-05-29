@@ -4,9 +4,7 @@ public class SumArray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
 		        Scanner sc = new Scanner(System.in);
-
 		        int n, i, sum = 0;
 
 		        System.out.print("Enter size of array: ");
@@ -19,8 +17,6 @@ public class SumArray {
 		        for(i = 0; i < n; i++) {
 		            arr[i] = sc.nextInt();
 		        }
-
-		        // Calculate sum
 		        for(i = 0; i < n; i++) {
 		            sum = sum + arr[i];
 		        }
