@@ -20,7 +20,7 @@ public class IndexSum {
             arr[i] = sc.nextInt();
         }
 
-        // Calculate even and odd index sums
+       
         for(i = 0; i < n; i++) {
 
             if(i % 2 == 0) {
