@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 1. Constructor Injection -->
+    <bean id="studentConstructor" class="org.example.entity.Student">
+        <constructor-arg name="id" value="101"/>
+        <constructor-arg name="name" value="Rahul Kumar"/>
+    </bean>
+
+    <!-- 2. Setter Injection -->
+    <bean id="studentSetter" class="org.example.entity.Student">
+        <property name="id" value="102"/>
+        <property name="name" value="Priya Sharma"/>
+    </bean>
+
+
+</beans>
